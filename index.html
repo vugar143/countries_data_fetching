@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="pgsr">
+   <input class="search" type="text" placeholder="search country by name...">
+    <ul id="pagination">
+    </ul>
+  </div>
+  <div class="checkbox">
+  <label for="population">ehalisi 500000den az olan olkeler</label>
+    <input type="checkbox" id="population">
+
+    <label class="avropa" for="europe">Avropada yerleshen olkeler</label>
+    <input class="avropa" type="checkbox" id="europe">
+  </div>
+    <table>
+        <caption>
+          olkeler Cədvəli
+        </caption>
+        <thead>
+          <tr>
+            <th>№</th>
+            <th>Olke adi</th>
+            <th>Olke paytaxti</th>
+            <th>Olke regionu</th>
+            <th>Olke erazisi</th>
+            <th>olke ehalisi</th>
+            <th>olke bayragi</th>
+            <!-- <th><button id="delete">delete</button></th> -->
+         
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="/pp.js"></script>
+</body>
+</html>
